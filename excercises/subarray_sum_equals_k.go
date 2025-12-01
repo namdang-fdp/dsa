@@ -19,7 +19,7 @@ func subarraySum(nums []int, k int) int {
 	return count
 }
 
-func solve() {
+func solve_560() {
 	var n, k int
 	fmt.Scan(&n, &k)
 	arr := make([]int, n)
@@ -28,8 +28,4 @@ func solve() {
 	}
 	var count int = subarraySum(arr, k)
 	fmt.Println(count)
-}
-
-func main() {
-	solve()
 }

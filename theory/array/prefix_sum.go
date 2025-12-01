@@ -103,6 +103,3 @@ func solve_ex2_optimize() {
 	}
 	fmt.Println(count)
 }
-func main() {
-	solve_ex2_optimize()
-}
