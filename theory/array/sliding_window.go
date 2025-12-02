@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // every element go in/out window 1 time
 // fixed-size window: increase by update, not re-calculate
 
@@ -78,11 +76,4 @@ func LongestSubstringNoRepeat(s string) (string, int) {
 	}
 	substring := s[start : start+maxLen]
 	return substring, maxLen
-}
-
-func main() {
-	s := "abcabcbb"
-	substring, maxLen := LongestSubstringNoRepeat(s)
-	fmt.Println("Longest Substring:", substring)
-	fmt.Println("Max Length:", maxLen)
 }
