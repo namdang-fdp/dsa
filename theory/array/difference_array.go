@@ -82,7 +82,3 @@ func solve_ex2_diff() {
 		fmt.Println(arr[i])
 	}
 }
-
-func main() {
-	solve_ex2_diff()
-}
