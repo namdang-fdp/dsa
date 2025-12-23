@@ -24,11 +24,3 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return maxLen
 }
-
-func solve_03() {
-
-}
-
-func main() {
-	solve_03()
-}

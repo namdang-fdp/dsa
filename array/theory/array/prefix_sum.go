@@ -184,11 +184,3 @@ func solve_b3() {
 		}
 	}
 }
-
-func solve() {
-	solve_b3()
-}
-
-func main() {
-	solve()
-}
